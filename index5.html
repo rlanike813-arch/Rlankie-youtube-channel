@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RLanike - YouTube Channel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0f0f0f;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #00ff00;
+        }
+        .container {
+            text-align: center;
+            border: 3px solid #00ff00;
+            padding: 50px;
+            max-width: 500px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #00ff00;
+        }
+        p {
+            font-size: 16px;
+            margin: 15px 0;
+            color: #00ff00;
+        }
+        .qr-code {
+            width: 280px;
+            height: 280px;
+            margin: 30px auto;
+            padding: 10px;
+            background: white;
+            border: 2px solid #00ff00;
+        }
+        a {
+            display: inline-block;
+            background-color: #00ff00;
+            color: #0f0f0f;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: all 0.3s;
+            border: 2px solid #00ff00;
+        }
+        a:hover {
+            background-color: #0f0f0f;
+            color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>>> RLanike <<</h1>
+        <p>YouTube Channel</p>
+        <p>Scan the QR code below</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=280x280&data=https://www.youtube.com/@RLanike" alt="QR Code" class="qr-code">
+        <p>Or visit directly:</p>
+        <a href="https://www.youtube.com/@RLanike" target="_blank">Visit Channel</a>
+    </div>
+</body>
+</html>

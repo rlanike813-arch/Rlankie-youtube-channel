@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RLanike - YouTube Channel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: radial-gradient(circle at 20% 50%, #ff6b9d 0%, #c44569 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 30px;
+            max-width: 500px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #ff6b9d;
+            font-size: 54px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        .features {
+            background: #f8f8f8;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+        .feature {
+            color: #666;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .qr-code {
+            width: 250px;
+            height: 250px;
+            margin: 30px auto;
+            border: 4px solid #ff6b9d;
+            border-radius: 10px;
+            display: block;
+        }
+        a {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+            color: white;
+            padding: 16px 50px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: all 0.3s;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+        a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">▶️</div>
+        <h1>RLanike</h1>
+        <p>Welcome to My YouTube Channel</p>
+        
+        <div class="features">
+            <div class="feature">✨ Quality Content</div>
+            <div class="feature">🎬 Regular Updates</div>
+            <div class="feature">👥 Community Focused</div>
+        </div>
+        
+        <p>Scan the QR code to visit my channel</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://www.youtube.com/@RLanike" alt="QR Code" class="qr-code">
+        <a href="https://www.youtube.com/@RLanike" target="_blank">Subscribe Today!</a>
+    </div>
+</body>
+</html>
